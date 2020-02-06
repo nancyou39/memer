@@ -16,7 +16,7 @@ function App() {
   async function getMemes() {
     setLoading(true)
     console.log("Get Memes")
-    const key = 'IGQdnfCAcQtMCVmhya8TpIitS4aGRbiW'
+    const key = 'WFLczxFz1MJ61HYIFmwr3Q8Bb8sNTG6Y'
     let url= 'https://api.giphy.com/v1/gifs/search?'
     url += 'api_key='+key
     url += '&q='+text
